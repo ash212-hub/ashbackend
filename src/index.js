@@ -6,7 +6,7 @@ import createproject from './routes/projects/createProject.js';
 import deleteProject from './routes/projects/deletingProjects.js'
 import createResume from './routes/resume/createResume.js';
 import updateResume from './routes/resume/updateResume.js';
-import skillrouter from './routes/skills/skills.js';
+import skillrouter from './routes/skills/skills.js'
 dotenv.config();
 connectDB();
 
@@ -18,6 +18,7 @@ app.use('/api/deleteproject', deleteProject);
 app.use('/api/createresume', createResume);
 app.use('/api/update', updateResume);
 app.use('/api/skills', skillrouter); 
+
 
 app.get('/', (req, res) => res.send('API Running'));
 
