@@ -6,7 +6,7 @@ import createproject from './routes/projects/createProject.js';
 import deleteProject from './routes/projects/deletingProjects.js'
 import createResume from './routes/resume/createResume.js';
 import updateResume from './routes/resume/updateResume.js';
-import skillrouter from './routes/skills/skills.js';
+import skillrouter from './routes/skills/skills.js'
 dotenv.config();
 connectDB();
 
