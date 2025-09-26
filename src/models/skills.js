@@ -9,6 +9,58 @@ const skillSchema = new mongoose.Schema({
         type: String,
         required: true
     }
+    const projectSchema = new mongoose.Schema({
+  title: {
+    type: String,
+    required: true,
+  },
+  description: String, 
+  imageUrl: String,
+  imageid: String,
+  projecturl: String
+}, {
+  timestamps: true,
+});
+
+const projectSchema = new mongoose.Schema({
+  title: {
+    type: String,
+    required: true,
+  },
+  description: String, 
+  imageUrl: String,
+  imageid: String,
+  projecturl: String
+}, {
+  timestamps: true,
+});
+
+const projectSchema = new mongoose.Schema({
+  title: {
+    type: String,
+    required: true,
+  },
+  description: String, 
+  imageUrl: String,
+  imageid: String,
+  projecturl: String
+}, {
+  timestamps: true,
+});
+
+const projectSchema = new mongoose.Schema({
+  title: {
+    type: String,
+    required: true,
+  },
+  description: String, 
+  imageUrl: String,
+  imageid: String,
+  projecturl: String
+}, {
+  timestamps: true,
+});
+
 });
 
 const Skill = mongoose.model('Skill', skillSchema);
